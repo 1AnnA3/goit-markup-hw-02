@@ -14,7 +14,8 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 /*====== /Common Styles/ ======*/
 
@@ -45,6 +46,9 @@ body {
   color: #404bbf;
 }
 
+.main-contact {
+  font-style: normal;
+}
 .contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -52,15 +56,22 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
 
 /*====== /Header Styles/ ======*/
 
 /*====== Hero Styles ======*/
 
+.main-section {
+  background-color: #2e2f42;
+}
 .title-page {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -72,6 +83,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 .button-click:hover,
@@ -81,6 +93,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #404bbf;
 }
 
 /*====== /Hero Styles/ ======*/
@@ -105,12 +118,17 @@ body {
 
 /*====== Team Styles ======*/
 
+.benefits-section {
+  background-color: #f4f4fd;
+}
+
 .team-main-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list-name {
@@ -119,6 +137,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .team-list-description {
@@ -137,7 +156,7 @@ body {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -147,6 +166,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-list-description {
@@ -159,6 +179,14 @@ body {
 /*====== /Portfolio Styles/ ======*/
 
 /*====== Footer Styles ======*/
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.color-black {
+  color: #f4f4fd;
+}
 .footer-description {
   font-weight: 400;
   font-size: 16px;
